@@ -44,3 +44,23 @@ Aprendiendo a crear subtítulos en ~~Markdown en TECSUP con los chicos de teorí
 - [X] Registro de Alumno
 - [X] Matricula Procesada
 - [ ] Reporte Generado 
+
+## Creando tablas 
+| Lenguajes de Programación | Creador |
+|---------------------------|---------|
+| Java | James Gosling |
+| PHP  | Rasmus Lerdorf |
+
+| Programas | Año de Creación |
+|-------------------------------------|
+| Visual Studio CODE | 2004 |
+| Virtual Box | 2006 |
+
+## Aprendiendo mermaid
+```mermaid
+flowchart TD
+A[Usuario] --> B[Iniciar Sesion]
+B --> C[Colocar Credenciales]
+C --> |Si| D[Acceder al Sistema]
+C --> |NO| E[No ingresa]
+```
